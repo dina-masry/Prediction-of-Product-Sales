@@ -1,4 +1,4 @@
-![Data science](https://github.com/user-attachments/assets/796e29b4-9cb1-471a-93b2-fab5e766fb6d)
+![Data science](https://github.com/user-attachments/assets/35c8d9c8-c0b0-4f7a-badf-cb9b4caba0f5)
 
 # Sale Prediction for Food Items: A Data Science Project
 This data science project focuses on developing a robust and accurate model for predicting sales of food items. By leveraging historical sales data, item characteristics, and potentially external factors, the project aims to provide valuable insights for businesses in the food industry.
