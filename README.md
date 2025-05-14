@@ -11,6 +11,44 @@ Following the data cleaning and exploratory data analysis (EDA) phase, this proj
 ### Visual Exploration: 
   Creating a range of plots (e.g., histograms, scatter plots, box plots, heatmap) to examine the distribution of sales, relationships between variables, and temporal 
   trends.
+  - Histogram and boxplot for Item_visibility :
+    ![Item_visiability graphs](https://github.com/user-attachments/assets/33769550-3adc-475c-ac99-dd3110bd8f7a)
+     - This histogram shows that Item_visibilty values is the most frequency is less than 1
+     - Boxplot shows than:
+         -min is 0
+         -max is nearby 0.33
+         -median is nearby 0.06
+         -Q1 is nearby 0.03
+         -Q3 is nearby 0.9
+        -There are lots of outliers
+        -It seems to be right skewed
+  - Histogram and boxplot for Item_weight :
+    ![Item_weight graphs](https://github.com/user-attachments/assets/7b1ce083-c66c-4078-821c-78830aa0ca51)
+    - Histogram shows that Item weights between 12.5 and 13.5 have the most frequency count ~=1600 and differ alot from the other values which their counts are 
+      less than 500.
+    -Boxplot shows 
+       - min is nearby 4.5 
+       - max is nearby 21
+       - Q1 is nearby 9 
+       - Median is nearby 13
+       - Q3 is nearby 16
+       - There is no any outliers
+       - Graph seems to be left skewed
+  - Countplot for outlet_identifier :
+    ![outlet_identifier bar plot](https://github.com/user-attachments/assets/16b971fe-7b9b-4a48-8a3e-53208b46e7e9)
+    - This countplot shows that all outlet_identifier have the same count(approximetly) expect OUT010 AND OUT019.
+  - Countplot for outlet_size:
+    ![oulet_size count plot](https://github.com/user-attachments/assets/c0a46551-5ba5-4579-8a07-7bf6e8836ff1)
+    - This countplot shows that medium has the highest count while high has the lowest.
+  - Heatmap:
+    ![Heatmap for food sales](https://github.com/user-attachments/assets/4dcd8692-d584-4a25-b3cc-7995b7f524c8)
+    - Heatmap shows that there is no any strong correlations.
+    - There is a moderate positive correlation between Item_MRP and Item_outlet_Sales.
+
+
+
+
+
 
 ## Key observations from the visualizations include:
 - Sales Distribution: Understanding the spread and central tendency of sales figures across different food items and time periods.
