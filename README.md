@@ -74,6 +74,7 @@ Regression Metrics: Test Data
   - MSE = 1,194,349.715
   - RMSE = 1,092.863
   - R^2 = 0.567
+  -----------------------------------------------------------------------------------------------
 - I select linear regression as the gap between r^2 in training set and r^2 in testing set is the smallest , that mean every thing the model learned , it predicts it closer to what it is acutally .
 - Based on RMSE. the model predicts sales with errors about 1092$ higher or lower than the actual sale.
 
