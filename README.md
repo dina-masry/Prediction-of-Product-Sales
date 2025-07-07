@@ -62,7 +62,7 @@ These visual insights form a strong foundation for the subsequent steps in the p
    - Efficiency: It's a computationally light model, ideal for rapid prototyping and establishing a foundational understanding of sales drivers.
    - Baseline Performance: Linear Regression provides a robust benchmark against which the performance of more sophisticated models can be measured.
    Our goal is to leverage these linear relationships to build an insightful and effective sales forecasting tool.
- - Its evaluation mertics:
+### Its evaluation mertics:
 Regression Metrics: Training Data
  - MAE = 847.129
  - MSE = 1,297,558.136
@@ -74,8 +74,8 @@ Regression Metrics: Test Data
   - MSE = 1,194,349.715
   - RMSE = 1,092.863
   - R^2 = 0.567
-- I select linear regression as the gap between r^2 in training set and r^2 in testing set is the smallest , that mean every thing the model learned , it predicts it closer to what it is acutally .
-- Based on RMSE. the model predicts sales with errors about 1092$ higher or lower than the actual sale.
+ I select linear regression as the gap between r^2 in training set and r^2 in testing set is the smallest , that mean every thing the model learned , it predicts it closer to what it is acutally .
+Based on RMSE. the model predicts sales with errors about 1092$ higher or lower than the actual sale.
 
 
 
