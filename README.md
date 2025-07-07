@@ -50,7 +50,13 @@ Following the data cleaning and exploratory data analysis (EDA) phase, this proj
     - Heatmap shows that there is no any strong correlations.
     - There is a moderate positive correlation between Item_MRP and Item_outlet_Sales.
 
-
+## Model: Linear regression
+ - This project employs Linear Regression to develop a predictive model for food item sales. We selected this model for its strong balance of:
+   Transparency: Coefficients reveal the direct impact of features like price, promotional activities, and seasonal trends on sales, offering clear business insights.
+   Efficiency: It's a computationally light model, ideal for rapid prototyping and establishing a foundational understanding of sales drivers.
+   Baseline Performance: Linear Regression provides a robust benchmark against which the performance of more sophisticated models can be measured.
+   Our goal is to leverage these linear relationships to build an insightful and effective sales forecasting tool.
+   - Its evaluation mertics: 
 
 
 
