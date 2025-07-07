@@ -49,6 +49,12 @@ Following the data cleaning and exploratory data analysis (EDA) phase, this proj
     ![Heatmap for food sales](https://github.com/user-attachments/assets/4dcd8692-d584-4a25-b3cc-7995b7f524c8)
     - Heatmap shows that there is no any strong correlations.
     - There is a moderate positive correlation between Item_MRP and Item_outlet_Sales.
+ ## Key observations from the visualizations include:
+ 
+-  Sales Distribution: Understanding the spread and central tendency of sales figures across different food items and time periods.
+-  Feature Relationships: Identifying potential correlations between item characteristics (e.g., category, MRP, outlet size) and sales performance.
+-  Outlier Identification: Visualizing extreme sales values that might require further investigation or specific handling during the modeling phase.
+These visual insights form a strong foundation for the subsequent steps in the project, particularly feature engineering and model selection. The observed patterns and relationships will guide the creation of relevant features and the choice of appropriate predictive models to accurately forecast food item sales.
 
 ## Model: Linear regression
   This project employs Linear Regression to develop a predictive model for food item sales. We selected this model for its strong balance of:
@@ -56,7 +62,7 @@ Following the data cleaning and exploratory data analysis (EDA) phase, this proj
    - Efficiency: It's a computationally light model, ideal for rapid prototyping and establishing a foundational understanding of sales drivers.
    - Baseline Performance: Linear Regression provides a robust benchmark against which the performance of more sophisticated models can be measured.
    Our goal is to leverage these linear relationships to build an insightful and effective sales forecasting tool.
-  Its evaluation mertics:
+ - Its evaluation mertics:
 Regression Metrics: Training Data
  - MAE = 847.129
  - MSE = 1,297,558.136
@@ -71,9 +77,3 @@ Regression Metrics: Test Data
 
 
 
-
-## Key observations from the visualizations include:
-- Sales Distribution: Understanding the spread and central tendency of sales figures across different food items and time periods.
-- Feature Relationships: Identifying potential correlations between item characteristics (e.g., category, MRP, outlet size) and sales performance.
-- Outlier Identification: Visualizing extreme sales values that might require further investigation or specific handling during the modeling phase.
-These visual insights form a strong foundation for the subsequent steps in the project, particularly feature engineering and model selection. The observed patterns and relationships will guide the creation of relevant features and the choice of appropriate predictive models to accurately forecast food item sales.
