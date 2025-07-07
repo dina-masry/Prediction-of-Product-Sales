@@ -51,12 +51,23 @@ Following the data cleaning and exploratory data analysis (EDA) phase, this proj
     - There is a moderate positive correlation between Item_MRP and Item_outlet_Sales.
 
 ## Model: Linear regression
- - This project employs Linear Regression to develop a predictive model for food item sales. We selected this model for its strong balance of:
-   Transparency: Coefficients reveal the direct impact of features like price, promotional activities, and seasonal trends on sales, offering clear business insights.
-   Efficiency: It's a computationally light model, ideal for rapid prototyping and establishing a foundational understanding of sales drivers.
-   Baseline Performance: Linear Regression provides a robust benchmark against which the performance of more sophisticated models can be measured.
+  This project employs Linear Regression to develop a predictive model for food item sales. We selected this model for its strong balance of:
+   - Transparency: Coefficients reveal the direct impact of features like price, promotional activities, and seasonal trends on sales, offering clear business   insights.
+   - Efficiency: It's a computationally light model, ideal for rapid prototyping and establishing a foundational understanding of sales drivers.
+   - Baseline Performance: Linear Regression provides a robust benchmark against which the performance of more sophisticated models can be measured.
    Our goal is to leverage these linear relationships to build an insightful and effective sales forecasting tool.
-   - Its evaluation mertics: 
+  Its evaluation mertics:
+Regression Metrics: Training Data
+ - MAE = 847.129
+ - MSE = 1,297,558.136
+ - RMSE = 1,139.104
+ - R^2 = 0.562
+--------------------------------------------------------------------------------------------------
+Regression Metrics: Test Data
+  - MAE = 804.120
+  - MSE = 1,194,349.715
+  - RMSE = 1,092.863
+  - R^2 = 0.567
 
 
 
