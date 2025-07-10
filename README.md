@@ -78,6 +78,16 @@ Regression Metrics: Test Data
 - I select linear regression as the gap between r^2 in training set and r^2 in testing set is the smallest , that mean every thing the model learned , it predicts it closer to what it is acutally .
 - Based on RMSE. the model predicts sales with errors about 1092$ higher or lower than the actual sale.
 
+###Permutation Importance:
+<img width="820" height="487" alt="feature importance" src="https://github.com/user-attachments/assets/6c6cd4d4-3b8b-4775-8ebc-b388376ec1dc" />
+ - Item_MPR is the most important feature.
+ - Being in supermarket type_1 is more important than being in other types and it`s considered as the second most important feature.
+ - Having an identifier OUT027 is more important than having other identifiers anf it`s considered as the third most important feature.
+ - Being in supermarket type_3 is more important than being in supermarket type_2 and still less important than being in supermarket type_1.
+ - Outlet_establishment year is considered as the fifth most important feature.
+###Coeffecient visualizing:
+<img width="815" height="576" alt="coeff" src="https://github.com/user-attachments/assets/4925cc49-da34-4fdc-941a-e8e59e8aab06" />
+
 
 
 
