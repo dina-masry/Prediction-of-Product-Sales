@@ -92,6 +92,19 @@ Regression Metrics: Test Data
 ### Coeffecient visualizing:
 <img width="815" height="576" alt="coeff" src="https://github.com/user-attachments/assets/4925cc49-da34-4fdc-941a-e8e59e8aab06" />
 
+   - When an outlet is a 'Supermarket Type 3', the sales prediction is expected to increase by approximately 1518.842 units, assuming all other factors are held   constant.
+   - For the specific outlet identified as 'OUT027', the sales prediction is expected to increase by approximately 1518.842 units, assuming all other factors are held constant.
+   - For the specific outlet identified as 'OUT027', the sales prediction is expected to increase by approximately 1518.842 units, assuming all other factors are held constant.
+   - For every one-unit increase in the 'Item_MRP' (Maximum Retail Price), the sales prediction is expected to increase by approximately 984.513 units, assuming all other factors are held constant.
+   -  For the specific outlet identified as 'OUT018', the sales prediction is expected to increase by approximately 967.933 units, assuming all other factors are held constant.
+   -  When an outlet is a 'Supermarket Type 2', the sales prediction is expected to increase by approximately 967.933 units, assuming all other factors are held constant.
+   - For the specific outlet identified as 'OUT046' (compared to a baseline outlet), the sales prediction is expected to increase by approximately 366.737 units, assuming all other factors are held constant.
+
+   - When an outlet is located in 'Tier 2', the sales prediction is expected to increase by approximately 352.336 units, assuming all other factors are held constant.
+   - When an outlet is located in 'Tier 3', the sales prediction is expected to decrease by approximately 475.297 units, assuming all other factors are held constant.
+   - For the specific outlet identified as 'OUT019', the sales prediction is expected to decrease by approximately 550.673 units, assuming all other factors are held constant.
+
+
 
 
 
